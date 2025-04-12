@@ -6,6 +6,7 @@ const Users = db.define('users', {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true,
+        allowNull: false,
     },
     name: {
         type: DataTypes.STRING(50),
@@ -33,8 +34,7 @@ const Users = db.define('users', {
         allowNull: false,
     },
     rol_id: {
-        type: DataTypes,
-        defaultValue: 1,
+        type: DataTypes.INTEGER,
     },
 }, {
     timestamps: true,

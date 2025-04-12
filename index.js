@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = 3000;
 const cors = require('cors');
 const morgan = require('morgan');
 const db = require('./src/utils/database.js');
@@ -10,9 +10,9 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan('tiny'));
 
-db.authenticate()
-    .then(() => console.log('Base de datos conectada correctamente'))
-    .catch((err) => console.log(err));
+db.authenticate().then(() => console.log('conexión de base de datos exitoso')).catch((error) => console.log(error));
+
+db.sync({ alter: true }).then(() => console.log('Base de datos sincronizada')).catch((error) => console.log(error));
 
 initModels();
 
@@ -22,6 +22,6 @@ app.get('/', (req, res) => {
     });
 });
 
-app.listen(port, () => {
-  console.log(`El servidor escuchando en el puerto: ${port}`);
+app.listen(PORT, () => {
+  console.log(`El servidor escuchando en el puerto: http://localhost:${PORT}`);
 });
