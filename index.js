@@ -5,6 +5,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 const db = require('./src/utils/database.js');
 const initModels = require('./src/models/initModels.js');
+const userRoutes = require("./src/components/users/user.routes.js");
+const rolesRoutes = require("./src/components/roles/roles.routes.js");
 
 app.use(express.json());
 app.use(cors());
@@ -21,6 +23,9 @@ app.get('/', (req, res) => {
         message: 'Bienvenidos al servidor del menu digital',
     });
 });
+
+app.use(userRoutes);
+app.use(rolesRoutes);
 
 app.listen(PORT, () => {
   console.log(`El servidor escuchando en el puerto: http://localhost:${PORT}`);

@@ -15,7 +15,7 @@ const Users = db.define('users', {
     email: {
         type: DataTypes.STRING(100),
         allowNull: false,
-        unique: false,
+        unique: true,
     },
     password: {
         type: DataTypes.STRING(100),
@@ -35,6 +35,7 @@ const Users = db.define('users', {
     },
     rol_id: {
         type: DataTypes.INTEGER,
+        allowNull: false
     },
 }, {
     timestamps: true,
