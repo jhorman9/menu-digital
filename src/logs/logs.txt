@@ -1,0 +1,87 @@
+====================ERROR 13/4/2025, 9:53:05 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:53:58 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:55:22 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:56:16 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:56:26 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:58:26 p. m.=========================
+{"status":400,"error":"Dato invalido","message":["El password debe ser minimo 8 caracteres, una mayuscula, una minuscula y un caracter especial ! @ # $ % ^ & *"]}
+
+====================ERROR 13/4/2025, 9:58:27 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:01 p. m.=========================
+====================ERROR 13/4/2025, 10:46:23 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:38 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:39 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:40 p. m.=========================
+====================ERROR 13/4/2025, 10:46:41 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:52 p. m.=========================
+====================ERROR 13/4/2025, 10:46:53 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:46:56 p. m.=========================
+====================ERROR 13/4/2025, 10:47:08 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:47:09 p. m.=========================
+====================ERROR 13/4/2025, 10:47:27 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:47:31 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:47:32 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:47:38 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:47:39 p. m.=========================
+====================ERROR 13/4/2025, 10:47:40 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 10:48:33 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 11:05:23 p. m.=========================
+====================ERROR 13/4/2025, 11:05:33 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 11:05:34 p. m.=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
+
+====================ERROR 13/4/2025, 11:05:39 p. m.=========================

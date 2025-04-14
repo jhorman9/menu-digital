@@ -1,7 +1,7 @@
 const Roles = require("../../models/Roles");
 const User = require("../../models/Users");
 
-const getAllUsers = async (req, res) => {
+const getAllUsers = async (req, res, next) => {
   try {
     const users = await User.findAll({
       attributes: {
@@ -14,19 +14,24 @@ const getAllUsers = async (req, res) => {
     });
     res.json(users);
   } catch (error) {
-    res.status(400).json(error);
+    next(error);
   }
 };
 
-const createUser = async (req, res) => {
+const createUser = async (req, res, next) => {
   try {
     const newUser = req.body;
+
+    // Validación de campos requeridos
+    if (!newUser.email || !newUser.password) {
+      return res.status(400).json({ message: 'Faltan campos requeridos: email o password' });
+    }
 
     // Buscar el rol 'user' por defecto
     const defaultRole = await Roles.findOne({ where: { rol: 'user' } });
 
     if (!defaultRole) {
-      return res.status(400).json({ message: "Rol por defecto 'user' no encontrado." });
+      return res.status(404).json({ message: "Rol por defecto 'user' no encontrado." });
     }
 
     // Asignar el rol_id del rol 'user'
@@ -46,8 +51,23 @@ const createUser = async (req, res) => {
 
     res.status(201).json(userWithRole);
   } catch (error) {
-    console.log(error);
-    res.status(404).json(error);
+    // Manejo de errores de Sequelize
+    if (error.name === 'SequelizeValidationError') {
+      return res.status(400).json({
+        message: 'Error de validación en los datos.',
+        errors: error.errors,
+      });
+    }
+
+    if (error.name === 'SequelizeUniqueConstraintError') {
+      return res.status(409).json({
+        message: 'El correo ya está registrado',
+        error: error.message,
+      });
+    }
+
+    // Enviar el error genérico si no es un error de validación o de clave única
+    next(error);
   }
 };
 
