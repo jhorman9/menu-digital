@@ -85,3 +85,267 @@
 {"expose":true,"statusCode":400,"status":400,"body":"{\r\n    \"name\": \"jhorman\",\r\n    \"email\": \"jhosmita2712@gmail.com\",\r\n    \"password\": \"12345qw!7\",\r\n    \"is_valid\": false,\r\n    \"address\": \"Panama, san francisco\",\r\n    \"phone\": \"61231\",\r\n}","type":"entity.parse.failed"}
 
 ====================ERROR 13/4/2025, 11:05:39 p. m.=========================
+{"status":401,"message":"No autorizado"}
+
+====================ERROR 17/4/2025, 6:12:52 p. m.=========================
+====================ERROR 17/4/2025, 6:16:58 p. m.=========================
+{"status":401,"message":"No autorizado"}
+
+{"status":401,"message":"No autorizado"}
+
+====================ERROR 17/4/2025, 6:20:58 p. m.=========================
+====================ERROR 17/4/2025, 7:26:56 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key146","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:26:56.419 +00:00","2025-04-18 00:26:56.419 +00:00"]},"original":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key146","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:26:56.419 +00:00","2025-04-18 00:26:56.419 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 7:27:33 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key146","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:27:33.236 +00:00","2025-04-18 00:27:33.236 +00:00"]},"original":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key146","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:27:33.236 +00:00","2025-04-18 00:27:33.236 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{}
+
+====================ERROR 17/4/2025, 7:30:26 p. m.=========================
+====================ERROR 17/4/2025, 7:30:56 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:31:57 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:31:58 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:32:31 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 7:33:03 p. m.=========================
+====================ERROR 17/4/2025, 7:33:25 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key155","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:33:25.137 +00:00","2025-04-18 00:33:25.137 +00:00"]},"original":{"length":223,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita27122@gmail.com).","schema":"public","table":"users","constraint":"users_email_key155","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita27122@gmail.com","12345qw!A7",false,"Panama, san francisco","61231",1,"2025-04-18 00:33:25.137 +00:00","2025-04-18 00:33:25.137 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 7:33:46 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:34:07 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 7:34:54 p. m.=========================
+====================ERROR 17/4/2025, 7:34:55 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 7:35:11 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:35:57 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:35:59 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:39:02 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 7:54:07 p. m.=========================
+{"name":"JsonWebTokenError","message":"secret or public key must be provided"}
+
+====================ERROR 17/4/2025, 7:56:26 p. m.=========================
+{"name":"JsonWebTokenError","message":"secret or public key must be provided"}
+
+====================ERROR 17/4/2025, 7:56:33 p. m.=========================
+====================ERROR 17/4/2025, 7:57:03 p. m.=========================
+{"name":"JsonWebTokenError","message":"secret or public key must be provided"}
+
+====================ERROR 17/4/2025, 8:55:31 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":226,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita91193251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key206","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita91193251@gmail.com","$2b$10$jDWQ/gpasFS032itQbOcDefpROwS8PDzZrCozahTuVyiBIkikoYpq",false,"Panama, san francisco","61231",1,"2025-04-18 01:55:31.509 +00:00","2025-04-18 01:55:31.509 +00:00"]},"original":{"length":226,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita91193251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key206","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita91193251@gmail.com","$2b$10$jDWQ/gpasFS032itQbOcDefpROwS8PDzZrCozahTuVyiBIkikoYpq",false,"Panama, san francisco","61231",1,"2025-04-18 01:55:31.509 +00:00","2025-04-18 01:55:31.509 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:07:40 p. m.=========================
+====================ERROR 17/4/2025, 9:09:35 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:09:37 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:04 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:06 p. m.=========================
+====================ERROR 17/4/2025, 9:10:06 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:07 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:08 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:08 p. m.=========================
+====================ERROR 17/4/2025, 9:10:23 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:24 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:10:25 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:11:22 p. m.=========================
+====================ERROR 17/4/2025, 9:14:40 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:15:35 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:15:54 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:15:55 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:15:56 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:16:09 p. m.=========================
+====================ERROR 17/4/2025, 9:16:10 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:16:27 p. m.=========================
+====================ERROR 17/4/2025, 9:17:52 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:17:54 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:18:13 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:18:27 p. m.=========================
+====================ERROR 17/4/2025, 9:18:34 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 17/4/2025, 9:19:04 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 17/4/2025, 9:45:59 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:08:07 p. m.=========================
+====================ERROR 17/4/2025, 10:08:11 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$nQ4waT9H8f0jOKom8JfIE.NTlWB01vuCPN.g3XN3QOseAbVwrwt3S",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:11.823 +00:00","2025-04-18 03:08:11.823 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$nQ4waT9H8f0jOKom8JfIE.NTlWB01vuCPN.g3XN3QOseAbVwrwt3S",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:11.823 +00:00","2025-04-18 03:08:11.823 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:14 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$eioe4pyAN0Fh93rx.8/5wuJGJRSjnnEVuDCavuNeDyXv21P.frUea",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:14.602 +00:00","2025-04-18 03:08:14.602 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$eioe4pyAN0Fh93rx.8/5wuJGJRSjnnEVuDCavuNeDyXv21P.frUea",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:14.602 +00:00","2025-04-18 03:08:14.602 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:15 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$Jf6BkOyv8EiUVsI6sIEs6uRT.Ds0GmRM45e5nVsBk1gu8Gg5s0oGa",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:15.390 +00:00","2025-04-18 03:08:15.390 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$Jf6BkOyv8EiUVsI6sIEs6uRT.Ds0GmRM45e5nVsBk1gu8Gg5s0oGa",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:15.390 +00:00","2025-04-18 03:08:15.390 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$SOWR/yHWG6J6sEi8Zc8R5eNN0cZd3MQeHrVjp3Nli6DyrBlVZ7AOa",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:16.066 +00:00","2025-04-18 03:08:16.066 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$SOWR/yHWG6J6sEi8Zc8R5eNN0cZd3MQeHrVjp3Nli6DyrBlVZ7AOa",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:16.066 +00:00","2025-04-18 03:08:16.066 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:16 p. m.=========================
+====================ERROR 17/4/2025, 10:08:16 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$Zi3IaQXEB0dIB12YZTeJyOTDx2zrHzHkR4ONxSZtIFOVuy4bO2ala",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:16.839 +00:00","2025-04-18 03:08:16.839 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$Zi3IaQXEB0dIB12YZTeJyOTDx2zrHzHkR4ONxSZtIFOVuy4bO2ala",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:16.839 +00:00","2025-04-18 03:08:16.839 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:25 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$f00uzpImH0.00.Z7sHMPPuA7KY.sPACGvlg1YzoIsypVicZvmY846",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:25.015 +00:00","2025-04-18 03:08:25.015 +00:00"]},"original":{"length":228,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhosmita9111933251@gmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhosmita9111933251@gmail.com","$2b$10$f00uzpImH0.00.Z7sHMPPuA7KY.sPACGvlg1YzoIsypVicZvmY846",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:25.015 +00:00","2025-04-18 03:08:25.015 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:47 p. m.=========================
+{}
+
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$AAQYJa9lrlhjc9rpWofzjeW7n1qBkDWF7TUyaayqltESdcPiJOUaG",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:49.600 +00:00","2025-04-18 03:08:49.600 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key240","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$AAQYJa9lrlhjc9rpWofzjeW7n1qBkDWF7TUyaayqltESdcPiJOUaG",false,"Panama, san francisco","61231",1,"2025-04-18 03:08:49.600 +00:00","2025-04-18 03:08:49.600 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:08:49 p. m.=========================
+====================ERROR 17/4/2025, 10:10:14 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 10:10:22 p. m.=========================
+====================ERROR 17/4/2025, 10:10:58 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key39","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$nSGTHv4jigA1XOQmLiZ8mOkEguR5ziFws.KILWvtW/HALnj.a8DDq",false,"Panama, san francisco","61231",1,"2025-04-18 03:10:58.757 +00:00","2025-04-18 03:10:58.757 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key39","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$nSGTHv4jigA1XOQmLiZ8mOkEguR5ziFws.KILWvtW/HALnj.a8DDq",false,"Panama, san francisco","61231",1,"2025-04-18 03:10:58.757 +00:00","2025-04-18 03:10:58.757 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:11:11 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":229,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$gUk4Z7Zfjn98b8TswX0ojOl9V0BGTuD/3wjviyULdpkIHmzZbu6Bm",false,"Panama, san francisco","61231",1,"2025-04-18 03:11:11.448 +00:00","2025-04-18 03:11:11.448 +00:00"]},"original":{"length":229,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$gUk4Z7Zfjn98b8TswX0ojOl9V0BGTuD/3wjviyULdpkIHmzZbu6Bm",false,"Panama, san francisco","61231",1,"2025-04-18 03:11:11.448 +00:00","2025-04-18 03:11:11.448 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:11:25 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":229,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$K0oeGw72/jrr4qt17LybauuTElukL056ApWs073M1Prwn/NxMfuS.",false,"Panama, san francisco","61231",1,"2025-04-18 03:11:25.709 +00:00","2025-04-18 03:11:25.709 +00:00"]},"original":{"length":229,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto9721@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto9721@hotmail.com","$2b$10$K0oeGw72/jrr4qt17LybauuTElukL056ApWs073M1Prwn/NxMfuS.",false,"Panama, san francisco","61231",1,"2025-04-18 03:11:25.709 +00:00","2025-04-18 03:11:25.709 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{}
+
+====================ERROR 17/4/2025, 10:11:29 p. m.=========================
+====================ERROR 17/4/2025, 10:12:04 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":230,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97221@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97221@hotmail.com","$2b$10$J9G.9SElNPfM3.Zcrq6ifuv7O.RaPgWui5UJVeWeiELMakpUL7pQm",false,"Panama, san francisco","61231",1,"2025-04-18 03:12:04.815 +00:00","2025-04-18 03:12:04.815 +00:00"]},"original":{"length":230,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97221@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key246","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97221@hotmail.com","$2b$10$J9G.9SElNPfM3.Zcrq6ifuv7O.RaPgWui5UJVeWeiELMakpUL7pQm",false,"Panama, san francisco","61231",1,"2025-04-18 03:12:04.815 +00:00","2025-04-18 03:12:04.815 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 17/4/2025, 10:12:14 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:12:51 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:38:23 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:45:06 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:46:28 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:47:13 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 10:49:05 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key260","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$yQQ/uQx29OfQAs3WhVV28.mJ9HactREw5rFwkdesDRniXuyuXmRkS",false,"Panama, san francisco","61231",1,"2025-04-18 03:49:05.701 +00:00","2025-04-18 03:49:05.701 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key260","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$yQQ/uQx29OfQAs3WhVV28.mJ9HactREw5rFwkdesDRniXuyuXmRkS",false,"Panama, san francisco","61231",1,"2025-04-18 03:49:05.701 +00:00","2025-04-18 03:49:05.701 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{}
+
+====================ERROR 17/4/2025, 10:52:22 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 11:01:16 p. m.=========================
+====================ERROR 17/4/2025, 11:01:21 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key277","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$hKLgf0anZmMsXHW9Q856I...EqouME20gCTPoZOJdKJN8sL6bWEKK",false,"Panama, san francisco","61231",1,"2025-04-18 04:01:21.474 +00:00","2025-04-18 04:01:21.474 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key277","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$hKLgf0anZmMsXHW9Q856I...EqouME20gCTPoZOJdKJN8sL6bWEKK",false,"Panama, san francisco","61231",1,"2025-04-18 04:01:21.474 +00:00","2025-04-18 04:01:21.474 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{}
+
+====================ERROR 17/4/2025, 11:04:36 p. m.=========================
+====================ERROR 17/4/2025, 11:05:15 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 11:07:58 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 11:09:48 p. m.=========================
+====================ERROR 17/4/2025, 11:14:02 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 11:17:29 p. m.=========================
+{}
+
+====================ERROR 17/4/2025, 11:17:50 p. m.=========================
+{}
+
+{}
+
+====================ERROR 17/4/2025, 11:18:21 p. m.=========================
+====================ERROR 17/4/2025, 11:21:55 p. m.=========================
+{}
+

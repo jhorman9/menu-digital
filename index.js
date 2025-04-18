@@ -8,6 +8,8 @@ const initModels = require('./src/models/initModels.js');
 const userRoutes = require("./src/components/users/user.routes.js");
 const rolesRoutes = require("./src/components/roles/roles.routes.js");
 const errorRoutes = require('./src/routes/error.routes.js');
+const transporter = require('./src/helpers/mailer.js');
+const path = require('path');
 
 app.use(express.json());
 app.use(cors());

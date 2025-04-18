@@ -13,7 +13,6 @@ const {
 
 const errorLogger = (err, req, res, next) => {
       const date = new Date().toLocaleString();
-        console.log(err); // mostrar la fecha y hora en la que sucedio el error
           const filePath = path.join(__dirname, "../logs/logs.txt");
             fs.appendFile(filePath,
                 `====================ERROR ${date}=========================\n`);
@@ -28,7 +27,7 @@ const ormErrorHandler = (err, req, res, next) => {
 
     if(err instanceof ConnectionError) {
         return res.status(409).json({
-            error: 'Error de conexion a la base de dato',
+            error: 'Error de conexion a la base de datos',
             message: err.name
         })
     }
@@ -57,7 +56,6 @@ const ormErrorHandler = (err, req, res, next) => {
 const errorHandler = (err, req, res, next) => {
     const {status, ...error} = err;
     res.status(err.status || 500).json(error);
-    
 };
 
 const notFoundErrorHandler = (req, res) =>{
@@ -67,11 +65,29 @@ const notFoundErrorHandler = (req, res) =>{
     });
 }
 
+const jwtErrorHandler = (err, req, res, next) => {
+
+    if(err.name === 'JsonWebTokenError') {
+        return res.status(401).json({
+            error: 'Token no valido',
+            message: err.message,
+        });
+    }
+
+    if(err.name === 'TokenExpiredError') {
+        return res.status(401).json({
+            error: 'Token expirado',
+            message: err.message,
+        });
+    }
+
+    next(err);
+}
+
 module.exports = { 
     errorLogger,
     errorHandler,
     ormErrorHandler,
-    notFoundErrorHandler
+    notFoundErrorHandler,
+    jwtErrorHandler,
 }
-
-//TODO|| Tarea  -> Escribir un manejador de errores para jsonWebToken

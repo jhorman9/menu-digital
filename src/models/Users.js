@@ -1,5 +1,10 @@
 const db = require('../utils/database.js');
 const { DataTypes } = require('sequelize');
+const bcrypt = require('bcrypt');
+const transporter = require("../helpers/mailer.js");
+const jwt = require('jsonwebtoken');
+const sendWelcomeEmail = require('../helpers/sendMail.js');
+require('dotenv').config();
 
 const Users = db.define('users', {
     id: {
@@ -39,6 +44,16 @@ const Users = db.define('users', {
     },
 }, {
     timestamps: true,
+    hooks: {
+        beforeCreate: async (user, options) => {
+            const hashed = await bcrypt.hash(user.password, 10);
+            user.password = hashed;
+        },
+        afterCreate: async (user, options) => {
+            const { email, name } = user;
+            sendWelcomeEmail(email, {name});
+         }
+    }
 });
 
 module.exports = Users;
