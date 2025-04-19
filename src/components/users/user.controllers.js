@@ -63,7 +63,7 @@ const loginUser = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     const user = await User.findOne({
-        where: {email},
+      where: {email}
     });
 
     if(!user){
@@ -83,7 +83,6 @@ const loginUser = async (req, res, next) => {
         });
     }
 
-
     // if(!user.validEmail){
     //     return res.status(401).json({
     //         error: 'Necesitas verificarte',
@@ -91,14 +90,28 @@ const loginUser = async (req, res, next) => {
     //     });
     // }
 
-    const copyUser = { ...user.dataValues }; //copio 
+    //incluir el rol en el includes del token
+
+    const userWithRole = await User.findByPk(user.id, {
+        attributes: { exclude: ['password'] },
+        include: {
+            model: Roles,
+            attributes: ['rol']
+        }
+    });
+
+    console.log(userWithRole)
+
+    const copyUser = { ...userWithRole.dataValues }; //copio 
     delete copyUser.password; //elimino la password
 
     const token = jwt.sign(copyUser, process.env.JWT_SECRET, { 
         algorithm: "HS512",
         expiresIn: "7d",
      });
-     copyUser.token = token;
+
+     copyUser.token = token; 
+     delete copyUser.role;
      res.status(200).json(copyUser);
   } catch (error) {
     next(error);

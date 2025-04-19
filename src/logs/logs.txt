@@ -349,3 +349,39 @@
 ====================ERROR 17/4/2025, 11:21:55 p. m.=========================
 {}
 
+====================ERROR 18/4/2025, 7:59:18 p. m.=========================
+{"status":401,"message":"No autorizado"}
+
+====================ERROR 18/4/2025, 7:59:18 p. m.=========================
+{"status":401,"message":"No autorizado"}
+
+====================ERROR 18/4/2025, 8:09:56 p. m.=========================
+{"code":"ERR_HTTP_HEADERS_SENT"}
+
+====================ERROR 18/4/2025, 8:12:39 p. m.=========================
+{"status":400,"error":"El usuario no existe","message":"Necesitas registrarte antes de hacer un login"}
+
+====================ERROR 18/4/2025, 8:12:49 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key329","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$1VTvy/V72NPnTbyTh7uj/uAVgBdVcs.Bms/4MM0Vy.veBX.dH3902",false,"Panama, san francisco","61231",1,"2025-04-19 01:12:49.678 +00:00","2025-04-19 01:12:49.678 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key329","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$1VTvy/V72NPnTbyTh7uj/uAVgBdVcs.Bms/4MM0Vy.veBX.dH3902",false,"Panama, san francisco","61231",1,"2025-04-19 01:12:49.678 +00:00","2025-04-19 01:12:49.678 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 18/4/2025, 8:18:18 p. m.=========================
+{}
+
+====================ERROR 18/4/2025, 8:18:56 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 18/4/2025, 8:19:31 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 18/4/2025, 8:19:45 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 18/4/2025, 8:19:55 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 18/4/2025, 8:20:36 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-18T01:54:54.000Z"}
+
+====================ERROR 18/4/2025, 8:42:09 p. m.=========================
+{}
+
