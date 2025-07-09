@@ -93,21 +93,23 @@ const loginUser = async (req, res, next) => {
     //incluir el rol en el includes del token
 
     const userWithRole = await User.findByPk(user.id, {
-        attributes: { exclude: ['password'] },
+        attributes: { include: ['id'] },
         include: {
             model: Roles,
             attributes: ['rol']
         }
     });
 
-    console.log(userWithRole)
-
     const copyUser = { ...userWithRole.dataValues }; //copio 
     delete copyUser.password; //elimino la password
 
-    const token = jwt.sign(copyUser, process.env.JWT_SECRET, { 
+    
+    const token = jwt.sign({sub: String(copyUser.id)}, process.env.JWT_SECRET, { 
         algorithm: "HS512",
         expiresIn: "7d",
+        issuer: "http://localhost:3000",
+        audience: "http://localhost:3000",
+        jwtid: generateRandomId(),
      });
 
      copyUser.token = token; 
@@ -117,6 +119,10 @@ const loginUser = async (req, res, next) => {
     next(error);
   }
 };
+
+function generateRandomId() {
+    return Math.random().toString(36).substring(2, 18);
+}
 
 const validateUserEmail = async (req, res, next) =>{
   try {  

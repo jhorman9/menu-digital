@@ -4,7 +4,7 @@ const Users = require('../models/Users');
 const Roles = require('../models/Roles');
 
 
-const adminMiddleware = async (req, res, next) => {
+const userAuthMiddleware = async (req, res, next) => {
     try {
         const authorization = req.headers.authorization;
 
@@ -27,7 +27,9 @@ const adminMiddleware = async (req, res, next) => {
         // Accede correctamente al rol
         const rol = user.role.dataValues.rol;
 
-        if (rol !== 'superadmin') {
+        console.log(rol);
+
+        if (!['superadmin', 'user', 'admin'].includes(rol)) {
             return res.status(403).json({ message: 'Acceso denegado' });
         }
 
@@ -38,4 +40,4 @@ const adminMiddleware = async (req, res, next) => {
     }
 }
 
-module.exports = adminMiddleware;
+module.exports = userAuthMiddleware;

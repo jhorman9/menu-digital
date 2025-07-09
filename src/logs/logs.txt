@@ -385,3 +385,141 @@
 ====================ERROR 18/4/2025, 8:42:09 p. m.=========================
 {}
 
+====================ERROR 19/4/2025, 12:47:24 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 30/4/2025, 8:22:09 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 30/4/2025, 8:22:11 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 30/4/2025, 8:22:12 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 30/4/2025, 8:22:13 p. m.=========================
+====================ERROR 30/4/2025, 8:22:14 p. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 30/4/2025, 8:22:22 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:16:33.000Z"}
+
+====================ERROR 30/4/2025, 8:24:22 p. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key406","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$p65tQYGgUWHS8m72bSxvzegWO1M2XoMVc2OyKMAmxWORwK6vKUvsC",false,"Panama, san francisco","61231",1,"2025-05-01 01:24:22.093 +00:00","2025-05-01 01:24:22.093 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key406","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$p65tQYGgUWHS8m72bSxvzegWO1M2XoMVc2OyKMAmxWORwK6vKUvsC",false,"Panama, san francisco","61231",1,"2025-05-01 01:24:22.093 +00:00","2025-05-01 01:24:22.093 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:59:49.000Z"}
+
+====================ERROR 30/4/2025, 8:24:26 p. m.=========================
+====================ERROR 30/4/2025, 8:24:59 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:59:49.000Z"}
+
+====================ERROR 30/4/2025, 8:25:26 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:59:49.000Z"}
+
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:59:49.000Z"}
+
+====================ERROR 30/4/2025, 8:25:28 p. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-04-26T02:59:49.000Z"}
+
+====================ERROR 9/5/2025, 10:20:46 a. m.=========================
+====================ERROR 9/5/2025, 10:20:57 a. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-05-08T01:22:28.000Z"}
+
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+====================ERROR 9/5/2025, 10:21:02 a. m.=========================
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key413","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$VX2ZI6rkpiySqgPM7gvHVOMnAhNrYvr6AzNeA.A1HCk86H/sYFX.y",false,"Panama, san francisco","61231",1,"2025-05-09 15:36:37.722 +00:00","2025-05-09 15:36:37.722 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key413","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$VX2ZI6rkpiySqgPM7gvHVOMnAhNrYvr6AzNeA.A1HCk86H/sYFX.y",false,"Panama, san francisco","61231",1,"2025-05-09 15:36:37.722 +00:00","2025-05-09 15:36:37.722 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 9/5/2025, 10:36:37 a. m.=========================
+{"status":401,"message":"No autorizado"}
+
+====================ERROR 9/7/2025, 12:56:55 a. m.=========================
+====================ERROR 9/7/2025, 1:12:00 a. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-05-16T15:21:06.000Z"}
+
+{"name":"SequelizeUniqueConstraintError","errors":[],"parent":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key417","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$EPSBnrRVwb.d8ax2nRCBWOjTp3krD8Sx4c1JBMTEys1vZwNcyPJja",false,"Panama, san francisco","61231",1,"2025-07-09 06:12:20.414 +00:00","2025-07-09 06:12:20.414 +00:00"]},"original":{"length":227,"name":"error","severity":"ERROR","code":"23505","detail":"Ya existe la llave (email)=(jhorman_nieto97@hotmail.com).","schema":"public","table":"users","constraint":"users_email_key417","file":"nbtinsert.c","line":"673","routine":"_bt_check_unique","sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";","parameters":["jhorman","jhorman_nieto97@hotmail.com","$2b$10$EPSBnrRVwb.d8ax2nRCBWOjTp3krD8Sx4c1JBMTEys1vZwNcyPJja",false,"Panama, san francisco","61231",1,"2025-07-09 06:12:20.414 +00:00","2025-07-09 06:12:20.414 +00:00"]},"fields":{},"sql":"INSERT INTO \"users\" (\"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6,$7,$8,$9) RETURNING \"id\",\"name\",\"email\",\"password\",\"is_valid\",\"address\",\"phone\",\"rol_id\",\"createdAt\",\"updatedAt\";"}
+
+====================ERROR 9/7/2025, 1:12:20 a. m.=========================
+====================ERROR 9/7/2025, 1:26:17 a. m.=========================
+{}
+
+{}
+
+====================ERROR 9/7/2025, 1:28:27 a. m.=========================
+====================ERROR 9/7/2025, 1:32:20 a. m.=========================
+{}
+
+====================ERROR 9/7/2025, 1:54:57 a. m.=========================
+{}
+
+====================ERROR 9/7/2025, 1:56:54 a. m.=========================
+{}
+
+====================ERROR 9/7/2025, 2:18:10 a. m.=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2025-05-16T15:21:06.000Z"}
+
+====================ERROR 9/7/2025, 2:18:57 a. m.=========================
+{"name":"JsonWebTokenError","message":"jwt malformed"}
+
+{"name":"JsonWebTokenError","message":"invalid algorithm"}
+
+====================ERROR 9/7/2025, 2:31:27 a. m.=========================
+====================ERROR 9/7/2025, 2:31:29 a. m.=========================
+{"name":"JsonWebTokenError","message":"invalid algorithm"}
+
+{"name":"JsonWebTokenError","message":"invalid algorithm"}
+
+====================ERROR 9/7/2025, 2:31:36 a. m.=========================
+====================ERROR 9/7/2025, 2:31:59 a. m.=========================
+{"name":"JsonWebTokenError","message":"invalid algorithm"}
+
+====================ERROR 9/7/2025, 2:55:03 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:55:03.002Z","createdAt":"2025-07-09T07:55:03.002Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:19 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:19.743Z","createdAt":"2025-07-09T07:57:19.743Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:41 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:41.855Z","createdAt":"2025-07-09T07:57:41.855Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:55 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:55.134Z","createdAt":"2025-07-09T07:57:55.134Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:56 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:56.434Z","createdAt":"2025-07-09T07:57:56.434Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:57 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:57.477Z","createdAt":"2025-07-09T07:57:57.477Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:57:58 a. m.=========================
+{"name":"SequelizeValidationError","errors":[{"message":"restaurants.admin_id cannot be null","type":"notNull Violation","path":"admin_id","value":null,"origin":"CORE","instance":{"restaurant_id":null,"name":"AzumiPTY","location":"Panamá, San francisco","contact_info":"+50765961547","updatedAt":"2025-07-09T07:57:58.274Z","createdAt":"2025-07-09T07:57:58.274Z"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]}
+
+====================ERROR 9/7/2025, 2:58:23 a. m.=========================
+{"name":"SequelizeForeignKeyConstraintError","parent":{"length":292,"name":"error","severity":"ERROR","code":"23503","detail":"La llave (admin_id)=(1) no está presente en la tabla «users».","schema":"public","table":"restaurants","constraint":"restaurants_admin_id_fkey","file":"ri_triggers.c","line":"2619","routine":"ri_ReportViolation","sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:23.535 +00:00","2025-07-09 07:58:23.535 +00:00"]},"original":{"length":292,"name":"error","severity":"ERROR","code":"23503","detail":"La llave (admin_id)=(1) no está presente en la tabla «users».","schema":"public","table":"restaurants","constraint":"restaurants_admin_id_fkey","file":"ri_triggers.c","line":"2619","routine":"ri_ReportViolation","sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:23.535 +00:00","2025-07-09 07:58:23.535 +00:00"]},"sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:23.535 +00:00","2025-07-09 07:58:23.535 +00:00"],"fields":null}
+
+====================ERROR 9/7/2025, 2:58:33 a. m.=========================
+{"name":"SequelizeForeignKeyConstraintError","parent":{"length":292,"name":"error","severity":"ERROR","code":"23503","detail":"La llave (admin_id)=(1) no está presente en la tabla «users».","schema":"public","table":"restaurants","constraint":"restaurants_admin_id_fkey","file":"ri_triggers.c","line":"2619","routine":"ri_ReportViolation","sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:33.734 +00:00","2025-07-09 07:58:33.734 +00:00"]},"original":{"length":292,"name":"error","severity":"ERROR","code":"23503","detail":"La llave (admin_id)=(1) no está presente en la tabla «users».","schema":"public","table":"restaurants","constraint":"restaurants_admin_id_fkey","file":"ri_triggers.c","line":"2619","routine":"ri_ReportViolation","sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:33.734 +00:00","2025-07-09 07:58:33.734 +00:00"]},"sql":"INSERT INTO \"restaurants\" (\"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\") VALUES (DEFAULT,$1,$2,$3,$4,$5,$6) RETURNING \"restaurant_id\",\"name\",\"location\",\"contact_info\",\"admin_id\",\"createdAt\",\"updatedAt\";","parameters":["AzumiPTY","Panamá, San francisco","+50765961547",1,"2025-07-09 07:58:33.734 +00:00","2025-07-09 07:58:33.734 +00:00"],"fields":null}
+
+====================ERROR 9/7/2025, 3:04:57 a. m.=========================
+{}
+
+====================ERROR 9/7/2025, 3:05:05 a. m.=========================
+{}
+
+{}
+
+====================ERROR 9/7/2025, 3:05:21 a. m.=========================
+{}
+
+====================ERROR 9/7/2025, 3:06:01 a. m.=========================
+====================ERROR 9/7/2025, 3:06:29 a. m.=========================
+{}
+
+{}
+
+====================ERROR 9/7/2025, 3:07:19 a. m.=========================
+====================ERROR 9/7/2025, 3:11:14 a. m.=========================
+{}
+

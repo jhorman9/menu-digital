@@ -1,8 +1,6 @@
 const db = require('../utils/database.js');
 const { DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
-const transporter = require("../helpers/mailer.js");
-const jwt = require('jsonwebtoken');
 const sendWelcomeEmail = require('../helpers/sendMail.js');
 require('dotenv').config();
 

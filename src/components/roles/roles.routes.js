@@ -6,6 +6,6 @@ const adminMiddleware = require("../../middlewares/superadmin.middleware");
 // crear la instacia del Router
 const router = Router();
 
-router.get("/roles", adminMiddleware ,getAllRoles);
+router.get("/roles", adminMiddleware, getAllRoles);
 
 module.exports = router;
